@@ -402,8 +402,6 @@ public class FancyButton  extends LinearLayout{
         }else{
             this.setOrientation(LinearLayout.HORIZONTAL);
         }
-        LayoutParams containerParams = new LayoutParams(LayoutParams.WRAP_CONTENT,LayoutParams.WRAP_CONTENT);
-        this.setLayoutParams(containerParams);
         this.setGravity(Gravity.CENTER_VERTICAL);
         this.setClickable(true);
         this.setFocusable(true);
